@@ -16,7 +16,7 @@ import MailIcon from "@material-ui/icons/Mail";
 import NotificationsIcon from "@material-ui/icons/Notifications";
 import MoreIcon from "@material-ui/icons/MoreVert";
 import history from "../history/history";
-import AppLogo from "../../assets/applogo3.jpg";
+import AppLogo from "../../assets/applogo.jpg";
 
 const useStyles = makeStyles((theme) => ({
   grow: {
@@ -206,7 +206,7 @@ export default function PrimarySearchAppBar() {
               history.push("/");
             }}
           >
-          <img src={AppLogo} width="150" />
+          <img src={AppLogo} width="120" />
             {/*<HomeIcon fontSize="large" />*/}
           </IconButton>
           {/*<Typography
