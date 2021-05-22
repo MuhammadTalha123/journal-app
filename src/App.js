@@ -7,6 +7,7 @@ import AuthorGuidelines from "./components/authorGuidelines/AuthorGuidelines";
 import SubmitAPaper from "./components/submit A Paper/SubmitAPaper";
 import AimAndScope from "./components/aim&scope/AimAndScope";
 import Contact from "./components/contact/Contact";
+import Home from "./components/home/Home";
 import history from "./components/history/history";
 
 function App() {
@@ -23,7 +24,8 @@ function App() {
               path="/authorguidelines"
               component={AuthorGuidelines}
             />
-            <Route exact path="/" component={About} />
+            <Route exact path="/about" component={About} />
+            <Route exact path="/" component={Home} />
             <Route exact path="/contact" component={Contact} />
           </Switch>
         </Router>

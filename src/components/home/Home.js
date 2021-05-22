@@ -1,11 +1,13 @@
-import React from 'react';
+import React from "react";
 
 const Home = () => {
-    return (
-        <div>
-            Component!
-        </div>
-    );
+  return (
+    <div>
+      <h1>
+        International Journal Of Accounting Finance And Management Sciences
+      </h1>
+    </div>
+  );
 };
 
 export default Home;
