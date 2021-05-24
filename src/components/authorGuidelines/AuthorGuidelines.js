@@ -1,4 +1,5 @@
 import React from 'react';
+import "./authorGuidelines.css";
 
 const AuthorGuidelines = () => {
     return (

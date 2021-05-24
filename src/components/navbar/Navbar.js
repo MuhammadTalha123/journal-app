@@ -136,33 +136,33 @@ export default function PrimarySearchAppBar() {
       open={isMobileMenuOpen}
       onClose={handleMobileMenuClose}
     >
-      <MenuItem
+      {/*<MenuItem
         onClick={() => {
           history.push("/about");
         }}
       >
-        {/*<IconButton
+        <IconButton
             aria-label="account of current user"
             aria-controls="primary-search-account-menu"
             aria-haspopup="true"
             color="inherit"
           >
             <AccountCircle />
-          </IconButton>*/}
+          </IconButton>
         <p onClick={handleMenuClose}>About</p>
-      </MenuItem>
-      <MenuItem
+      </MenuItem>*/}
+      {/*<MenuItem
         onClick={() => {
           history.push("/aimandscope");
         }}
       >
-        {/*<IconButton aria-label="show 4 new mails" color="inherit">
+        <IconButton aria-label="show 4 new mails" color="inherit">
           <Badge badgeContent={4} color="secondary">
             <MailIcon />
           </Badge>
-  </IconButton>*/}
+  </IconButton>
         <p onClick={handleMenuClose}>Aim And Scope</p>
-      </MenuItem>
+      </MenuItem>*/}
       <MenuItem
         onClick={() => {
           history.push("/authorguidelines");
@@ -173,7 +173,7 @@ export default function PrimarySearchAppBar() {
             <NotificationsIcon />
           </Badge>
 </IconButton>*/}
-        <p onClick={handleMenuClose}>Guidelines</p>
+        <p onClick={handleMenuClose}>Author Guidelines</p>
       </MenuItem>
       <MenuItem
         onClick={() => {
@@ -254,7 +254,7 @@ export default function PrimarySearchAppBar() {
                 <MailIcon />
               </Badge>
         </IconButton>*/}
-            <Typography
+            {/*<Typography
               className={classes.title}
               onClick={() => {
                 history.push("/about");
@@ -273,7 +273,7 @@ export default function PrimarySearchAppBar() {
               noWrap
             >
               Aim And Scope
-            </Typography>
+            </Typography>*/}
             {/*<IconButton aria-label="show 17 new notifications" color="inherit">
               <Badge badgeContent={17} color="secondary">
                 <NotificationsIcon />
@@ -287,7 +287,7 @@ export default function PrimarySearchAppBar() {
               variant="h6"
               noWrap
             >
-              Guidelines
+              Author Guidelines
             </Typography>
             {/*<IconButton
               edge="end"
