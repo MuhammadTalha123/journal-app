@@ -499,7 +499,7 @@ const AuthorGuidelines = () => {
             <br />
             China National Petroleum Corporation (2009). 2009 Annual Reports.
             Beijing, China: CNPC. Retrieved September 30, 2010, from
-            http://www.cnpc.com.cn/resource/english/images1 /2009.pdf
+            http://www.cnpc.com.<br/>cn/resource /english/images1 /2009.pdf
           </p>
         </div>
       </div>
