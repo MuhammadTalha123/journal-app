@@ -1,52 +1,52 @@
+.contact_container {
+    margin: 40px 65px 0 65px;
+}
+
 .contact_container h1 {
-    text-align: center;
-    font-size: 40px;
+  font-size: 40px;
 }
 
 .email_contact {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .email_contact p {
-    margin: 0 0px 0 50px;
-    font-size: 20px;
+  margin: 0 0px 0 50px;
+  font-size: 20px;
 }
 
 .email_contact h3 {
-    font-size: 25px;
+  font-size: 25px;
 }
 
 .address_contact {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .address_contact p {
-    margin: 0 0px 0 50px;
-    font-size: 20px;
+  margin: 0 0px 0 50px;
+  font-size: 20px;
 }
 
 .address_contact h3 {
-    font-size: 25px;
+  font-size: 25px;
 }
 
 .phone_contact {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .phone_contact p {
-    margin: 0 0px 0 50px;
-    font-size: 20px;
+  margin: 0 0px 0 50px;
+  font-size: 20px;
 }
 
 .phone_contact h3 {
-    font-size: 25px;
+  font-size: 25px;
 }
