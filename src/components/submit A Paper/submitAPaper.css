@@ -9,3 +9,9 @@
 .submit_paper_container p {
     font-size: 20px;
 }
+
+@media only screen and (max-width: 500px) {
+    .submit_paper_container {
+      margin: 40px 20px 0 20px;
+    }
+  }
