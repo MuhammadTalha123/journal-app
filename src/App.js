@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import { Router, Switch, Route } from "react-router-dom";
 import PrimarySearchAppBar from "./components/navbar/Navbar";
-// import About from "./components/about/About";
+import Archieve from "./components/archieve/Archieve";
 import AuthorGuidelines from "./components/authorGuidelines/AuthorGuidelines";
 import SubmitAPaper from "./components/submit A Paper/SubmitAPaper";
 // import AimAndScope from "./components/aim&scope/AimAndScope";
@@ -24,7 +24,7 @@ function App() {
               path="/authorguidelines"
               component={AuthorGuidelines}
             />
-            {/*<Route exact path="/about" component={About} />*/}
+            <Route exact path="/archieve" component={Archieve} />
             <Route exact path="/" component={Home} />
             <Route exact path="/contact" component={Contact} />
           </Switch>

@@ -136,21 +136,21 @@ export default function PrimarySearchAppBar() {
       open={isMobileMenuOpen}
       onClose={handleMobileMenuClose}
     >
-      {/*<MenuItem
+      <MenuItem
         onClick={() => {
-          history.push("/about");
+          history.push("/archieve");
         }}
       >
-        <IconButton
+        {/*<IconButton
             aria-label="account of current user"
             aria-controls="primary-search-account-menu"
             aria-haspopup="true"
             color="inherit"
           >
             <AccountCircle />
-          </IconButton>
-        <p onClick={handleMenuClose}>About</p>
-      </MenuItem>*/}
+          </IconButton>*/}
+        <p onClick={handleMenuClose}>Archieve</p>
+      </MenuItem>
       {/*<MenuItem
         onClick={() => {
           history.push("/aimandscope");
@@ -254,17 +254,17 @@ export default function PrimarySearchAppBar() {
                 <MailIcon />
               </Badge>
         </IconButton>*/}
-            {/*<Typography
+            <Typography
               className={classes.title}
               onClick={() => {
-                history.push("/about");
+                history.push("/archieve");
               }}
               variant="h6"
               noWrap
             >
-              About
+              Archieve
             </Typography>
-            <Typography
+            {/*<Typography
               className={classes.title}
               onClick={() => {
                 history.push("/aimandscope");
